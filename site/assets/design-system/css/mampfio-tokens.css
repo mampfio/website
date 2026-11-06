@@ -1,0 +1,77 @@
+/* Mampfio design system tokens Mampfio v1. Generated, do not edit. */
+@font-face { font-family: "Baloo 2"; font-style: normal; font-weight: 800; font-display: swap; src: url("../fonts/baloo2-800.woff2") format("woff2"); }
+@font-face { font-family: "Nunito Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/nunitosans-400.woff2") format("woff2"); }
+@font-face { font-family: "Nunito Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fonts/nunitosans-600.woff2") format("woff2"); }
+@font-face { font-family: "Nunito Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/nunitosans-700.woff2") format("woff2"); }
+:root, [data-theme="light"] {
+  color-scheme: light;
+  --surface: #fff4e8;
+  --surface-raised: #ffffff;
+  --surface-sunken: #f6e3d3;
+  --ink: #3a1530;
+  --ink-muted: #6e4a62;
+  --line: #ead3c3;
+  --control-border: #6e4a62;
+  --brand-berry: #d6336c;
+  --action: #c2255f;
+  --on-action: #fff4e8;
+  --link: #b0245a;
+  --focus: #b0245a;
+  --cheese: #ffcb45;
+  --on-cheese: #3a1530;
+  --crust: #e09a3a;
+  --pepperoni: #c0392b;
+  --error: #c0392b;
+  --success: #2e7d4f;
+  --font-display: "Baloo 2", "Nunito Sans", system-ui, sans-serif;
+  --font-sans: "Nunito Sans", system-ui, sans-serif;
+  --text-display-xl: 800 64px/64px var(--font-display);
+  --text-display-l: 800 44px/48px var(--font-display);
+  --text-heading: 800 28px/34px var(--font-display);
+  --text-heading-s: 800 20px/26px var(--font-display);
+  --text-body-l: 400 18px/28px var(--font-sans);
+  --text-body: 400 16px/24px var(--font-sans);
+  --text-body-strong: 700 16px/24px var(--font-sans);
+  --text-label: 700 14px/20px var(--font-sans);
+  --text-caption: 600 13px/18px var(--font-sans);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --radius-s: 8px;
+  --radius-m: 14px;
+  --radius-l: 24px;
+  --radius-mark: 32%;
+  --radius-pill: 999px;
+  --shadow-card: 0 1px 0 rgba(58,21,48,0.06), 0 8px 24px rgba(58,21,48,0.08);
+}
+[data-theme="dark"] {
+  color-scheme: dark;
+  --surface: #22101c;
+  --surface-raised: #3a1530;
+  --surface-sunken: #2d1525;
+  --ink: #fff4e8;
+  --ink-muted: #d9bfcb;
+  --line: #4a2340;
+  --control-border: #b795a8;
+  --action: #f06a98;
+  --on-action: #3a1530;
+  --link: #f06a98;
+  --focus: #f06a98;
+  --error: #ff8a7a;
+  --success: #6fd49a;
+  --shadow-card: 0 1px 0 rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.35);
+}
+.mf-display-xl { font-family: var(--font-display); font-size: 64px; line-height: 64px; font-weight: 800; letter-spacing: -0.02em; }
+.mf-display-l { font-family: var(--font-display); font-size: 44px; line-height: 48px; font-weight: 800; letter-spacing: -0.015em; }
+.mf-heading { font-family: var(--font-display); font-size: 28px; line-height: 34px; font-weight: 800; }
+.mf-heading-s { font-family: var(--font-display); font-size: 20px; line-height: 26px; font-weight: 800; }
+.mf-body-l { font-family: var(--font-sans); font-size: 18px; line-height: 28px; font-weight: 400; }
+.mf-body { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 400; }
+.mf-body-strong { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 700; }
+.mf-label { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 700; }
+.mf-caption { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 600; }
